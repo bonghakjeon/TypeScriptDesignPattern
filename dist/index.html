@@ -1,0 +1,24 @@
+<!--  index.html 파일을 웹 브라우저(Chrome)를 통해서 실행하기 위해서 VSCode에서 확장 프로그램 "Live Server" 설치 필요함.  -->
+<!--  확장 프로그램 "Live Server" 설치 완료 후 폴더 "dist" 하위 "index.html" 마우스 우클릭 -> "Open with Live Server" 클릭  -->
+<!--  -> 웹 브라우저(Chrome)에서 index.html 파일이 출력 된다.  -->
+<!--  -> 웹 브라우저(Chrome)에서 단축키 F12 누르고 -> 개발자 도구 화면 출력되면, 상위 버튼 Console 클릭시  -->
+<!--  -> index.ts 파일의 코드 console.log("Hello") 실행 결과로 "Hello"가 출력된다.  -->
+
+<!--  폴더 "dist"는 사용자에게 배포되는 최종 결과 파일들이 존재함.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--  "bundle.js" - 우리가 앞으로 작성할 타입스크립트 코드 파일들이 자바스크립트로 변환되어 만들어지는 파일이다.  -->
+    <!--  터미널 명령어(Command) "npm run bundle" 의미? npm을 통해서 bundle을 실행하라는 의미이다. 여기서 bundle은 webpack을 의미함. 즉 webpack을 실행하라는 의미이다.  -->
+    <!--  터미널 명령어(Command) "npm run bundle"가 정상적으로 성공했다면 폴더 "dist"에 bundle.js 파일이 새로 생성된 것을 확인할 수 있다.  -->
+    <script src="bundle.js" defer></script>
+</head>
+<body>
+    
+</body>
+</html>
