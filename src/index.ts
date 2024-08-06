@@ -1,8 +1,13 @@
 // [TypeScript로 보는 GoF의 디자인 패턴] 스터디
-// 2강 실습환경 구성
+// 2강 - 실습환경 구성
 // 유튜브 참고 URL - 
 // https://youtu.be/g5dRKsBmlpM?si=qM_DhYAON3Y4Pmc4
 
+// 3강 - 
+
+
+
+// 2강 - 실습환경 구성 내용 요약
 // index.html 파일을 웹 브라우저(Chrome)를 통해서 실행하기 위해서 VSCode에서 확장 프로그램 "Live Server" 설치 필요함.  
 // 확장 프로그램 "Live Server" 설치 완료 후 폴더 "dist" 하위 "index.html" 마우스 우클릭 -> "Open with Live Server" 클릭 
 // -> 웹 브라우저(Chrome)에서 index.html 파일이 출력 된다.  
@@ -67,3 +72,14 @@ console.log("새해 복 많이 받으세요.")
 console.log("새해에는 늘 건강하세요.")
 console.log("새해에는 좋은 일만 가득하세요.")
 console.log("새해에는 좋은 일만 가득하세요!")
+
+
+// 3강 - Iterator 내용 요약 
+// Container 또는 Aggregator 는 동일한 형태의 데이터 항목(Item)을 여러 개 가지고 있는 집합을 의미한다.
+// Container 또는 Aggregator 종류 
+// 1. Array
+// 2. Linked List
+// 3. Tree
+// 4. Table (DBMS) 
+// 등등...
+
