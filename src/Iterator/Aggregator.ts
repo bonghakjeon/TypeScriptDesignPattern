@@ -1,3 +1,9 @@
+// [TypeScript로 보는 GoF의 디자인 패턴] 스터디
+// 3강 - Iterator
+// 유튜브 참고 URL - 
+// https://youtu.be/4BdFu4PaUJc?si=36hjXoSbOV9rsHxK
+
+
 // Iterator 디자인 패턴 정리
 // Iterator 디자인 패턴은 배열이나 Linked-List, Tree 처럼 다른 데이터 구조를 갖는
 // Aggregator의 구성 항목을 표준화된 공통 API로 접근할 수 있다.
