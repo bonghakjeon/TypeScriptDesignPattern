@@ -3,7 +3,8 @@ module.exports = {
     mode: "development",
     // entry: "./src/index.ts",
     // entry: "./src/Iterator/index.ts",   // 컴파일 실행 시작점을 "./src/Iterator/index.ts"로 설정 
-    entry: "./src/Strategy/index.ts",      // 컴파일 실행 시작점을 "./src/Strategy/index.ts"로 설정 
+    // entry: "./src/Strategy/index.ts",      // 컴파일 실행 시작점을 "./src/Strategy/index.ts"로 설정 
+    entry: "./src/Template/index.ts",      // 컴파일 실행 시작점을 "./src/Template/index.ts"로 설정 
     devtool: "inline-source-map",
     module: {
         rules: [
